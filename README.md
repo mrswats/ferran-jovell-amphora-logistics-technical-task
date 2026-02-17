@@ -1,6 +1,6 @@
-# Awesome Python Project
+# Amphora Technical Task
 
-This is a template for python projects.
+Amphora Logistics
 
 ## Virtual Environment
 
