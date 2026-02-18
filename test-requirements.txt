@@ -115,6 +115,7 @@ django==6.0.2 \
     #   awesome-python-project (pyproject.toml)
     #   django-stubs
     #   django-stubs-ext
+    #   djangorestframework
 django-stubs[compatible-mypy]==5.2.9 \
     --hash=sha256:2317a7130afdaa76f6ff7f623650d7f3bf1b6c86a60f95840e14e6ec6de1a7cd \
     --hash=sha256:c192257120b08785cfe6f2f1c91f1797aceae8e9daa689c336e52c91e8f6a493
@@ -123,6 +124,10 @@ django-stubs-ext==5.2.9 \
     --hash=sha256:230c51575551b0165be40177f0f6805f1e3ebf799b835c85f5d64c371ca6cf71 \
     --hash=sha256:6db4054d1580657b979b7d391474719f1a978773e66c7070a5e246cd445a25a9
     # via django-stubs
+djangorestframework==3.16.1 \
+    --hash=sha256:166809528b1aced0a17dc66c24492af18049f2c9420dbd0be29422029cfc3ff7 \
+    --hash=sha256:33a59f47fb9c85ede792cbf88bde71893bcda0667bc573f784649521f1102cec
+    # via awesome-python-project (pyproject.toml)
 execnet==2.1.2 \
     --hash=sha256:63d83bfdd9a23e35b9c6a3261412324f964c2ec8dcd8d3c6916ee9373e0befcd \
     --hash=sha256:67fba928dd5a544b783f6056f449e5e3931a5c378b128bc18501f7ea79e296ec

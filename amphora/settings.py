@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -17,7 +18,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "rest_framework",
     "amphora.health",
+    "amphora.api",
 ]
 
 MIDDLEWARE = [
@@ -84,3 +87,6 @@ USE_TZ = True
 
 
 STATIC_URL = "static/"
+
+
+API_KEY = os.getenv("API_KEY")

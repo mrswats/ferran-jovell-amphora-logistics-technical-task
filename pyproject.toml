@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.14.1"
 dependencies = [
     "django",
+    "djangorestframework",
 ]
 
 [project.license]
